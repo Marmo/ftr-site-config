@@ -1,0 +1,10 @@
+title: //header/h1
+body: //div[@class='singular-main']
+# Author not working due to readability preprocessing
+author: //header/span[contains(concat(' ', normalize-space(@class), ' '), ' singular-author ')
+
+strip_id_or_class: singular-book-slider
+strip_id_or_class: singular-abo-wrapper
+
+test_url: https://www.kinder-verstehen.de/mein-werk/artikel/wie-kinder-sauber-werden/
+test_contains: Die allermeisten Kinder werden im
